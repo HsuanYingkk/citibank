@@ -1,0 +1,23 @@
+.rate_title{
+    color: #7CD3A0;
+    min-width: 80px;
+}
+
+@media screen and (max-width: 576px){
+    .rate_title{
+        display: none;
+    }
+    .rate_grade{
+        position: relative;
+        left: -30px;
+        background: #27AE60;
+        border-radius: 12px;
+        min-width: 100px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        align-items: center;
+        font-size: medium;
+    }
+}
+

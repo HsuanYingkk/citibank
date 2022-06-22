@@ -1,0 +1,29 @@
+.index_img{
+    width: 559px;
+    margin-left: 2%;
+    margin-top: 16%;
+}
+
+
+@media screen and (max-width:767px) {
+    #index_img{
+        position: relative;
+        top: 15%;
+        right: 19%;
+    }
+
+    .index_img{
+        width: 400px;
+        margin-left: 4%;
+        margin-top: 16%;
+     
+    }
+}
+
+@media screen and (max-width:576px) {
+    .index_img{
+        width: 400px;
+        margin-left: 4%;
+        margin-top: 16%;
+    }
+}
